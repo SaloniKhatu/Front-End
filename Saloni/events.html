@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			
+		</title>
+		</head>
+		<body>
+			<button onclick="buttonclicked()">Click Here</button>
+			<p id="para"></p>
+			<h2 onmouseenter="mouseEnterEvent()"> hover here</h2>
+			<p id="para2"></p>
+			<h2 onmouseover="hover1()">Hover</h2>
+			<p id="para3"></p>
+				<script type="text/javascript">
+					var buttonclicked= function()
+					{
+					document.getElementById("para").innerHTML="Successful";
+					}
+					function mouseEnterEvent()
+					{
+						document.getElementById("para2").innerHTML+="mouse enter<br>";
+					}
+					function hover1()
+					{
+						document.getElementById("para3").innerHTML+="lol<br>";
+					}
+
+				</script>
+		</body>
+</html>
